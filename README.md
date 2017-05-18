@@ -1,6 +1,6 @@
 # deMOCKrazy => the Mock crazy
 
-Just a wrapper for Java Faker (https://github.com/DiUS/java-faker) in Scala
+Just a wrapper for <a href="https://github.com/DiUS/java-faker">java-faker</a> in Scala
 for shorten code and leverage Scala Coding Style
 
 For Scala 2.11.8 to 12.12.1
