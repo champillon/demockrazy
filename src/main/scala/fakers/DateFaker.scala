@@ -17,7 +17,7 @@ object DateFaker
     new DateTime(faker.date.future(day, TimeUnit.SECONDS, new Date))
 
   def futureDateRandom: DateTime =
-    new DateTime(faker.date.future(Random.nextInt(20)
+    new DateTime(faker.date.future(21 - Random.nextInt(20)
       , TimeUnit.SECONDS, new Date))
 
 }
