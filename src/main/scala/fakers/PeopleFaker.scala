@@ -15,4 +15,6 @@ object PeopleFaker
 
   def address: String = faker.address.fullAddress
 
+  def taxId: String = faker.idNumber.valid
+
 }

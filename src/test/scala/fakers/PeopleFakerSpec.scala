@@ -47,4 +47,11 @@ class PeopleFakerSpec
     assert(result.isInstanceOf[String])
   }
 
+  "taxId" should
+    "return taxId" in {
+    val result = PeopleFaker.taxId
+
+    assert(result.isInstanceOf[String])
+  }
+
 }
